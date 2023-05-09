@@ -1,0 +1,394 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	font-size: 16px;
+	font-family: 'Open Sans', sans-serif;
+	padding: 0;
+	margin: 0;
+}
+
+.nav-container{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	min-width: 90vw;
+	padding: 1em;
+}
+
+.logo-container{
+	min-width: 60%;
+}
+
+.nav-list{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	min-width: 40%;
+	color: hsl(243, 87%, 12%);
+	cursor: pointer;
+}
+
+.nav-list > li{
+	list-style: none;
+}
+
+
+.nav-list > li > a{
+	cursor: pointer;
+}
+
+
+
+.info{
+	display: flex;
+	flex-direction: row;
+	min-width: 90vw;
+	min-height: 65vh;
+	margin: 2em 0;
+	padding: 1em;
+}
+
+.presentation-container{
+	display: flex;
+	flex-direction: column;
+	min-width: 50%;
+	height: 100%;
+	padding: 10% 5% 5% 0;
+
+}
+
+.headline{
+	color: hsl(243, 87%, 12%);
+	font-family: 'Raleway', sans-serif;
+	font-weight: bolder;
+}
+
+.paragraph{
+	color: hsl(243, 87%, 12%);
+}
+
+
+
+.pics-container{
+	min-width: 40%;
+	overflow: hidden;
+}
+
+.illustrations{
+	width: 100%;
+	height: 100%;
+}
+
+
+.email-form{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+}
+
+.email-form > .email{
+	padding: 0.8em 1em ;
+	margin-right: 1em;
+}
+
+.submit-btn{
+	padding: 0.8em 3em;
+	background: hsl(224, 93%, 58%);
+	border: none;
+	color: white;
+	font-weight: 600;
+	cursor: pointer;
+	border-radius: 5px;
+}
+
+
+.bg-desktop{
+	display: flex;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+.bg-mobile{
+	display: none;
+}
+
+
+.second-info{
+	display: flex;
+	flex-direction: row;
+	min-width: 90vw;
+	min-height: 65vh;
+	margin: 0;
+	background-color: hsl(240, 75%, 98%);
+	padding: 1em;
+}
+
+.fylo{
+	color: hsl(170, 45%, 43%);
+}
+
+
+.testimonial-container{
+	position: relative;
+	background-color: white;
+	border: none;
+	align-self: flex-start;
+	padding: 0 1.2em;
+	width: 60%;
+	margin: 1em 0 0 1em;
+}
+
+.presentation-container-2{
+	display: flex;
+	flex-direction: column;
+	min-width: 50%;
+	height: 100%;
+	padding: 0 5% 5% 0;
+
+}
+
+
+.avatar-information{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	color: hsl(243, 87%, 12%);
+}
+
+.avatar-information > img{
+	border-radius: 50%;
+}
+
+.signature{
+	font-weight: bold;
+	font-family: 'Railway', sans-serif;
+}
+
+.occupation{
+	font-weight: 400;
+}
+
+.early-access{
+	display: flex;
+	flex-direction: row;
+	background-color: hsl(238, 22%, 44%);
+	margin: 0;
+	min-width: 100%;
+	padding: 1em;
+}
+
+.early-text{
+	display: flex;
+	flex-direction: column;
+	color: white;
+	width: 60%;
+}
+
+.early-text > h1{
+	font-family: 'Railway', sans-serif;
+	font-weight: 600;
+}
+
+.email-early{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+	width: 35%;
+}
+
+.second-email{
+	width: 80%;
+	padding: 0.8em 1em;
+}
+
+.early{
+	padding: 0.8em 2em;
+	width: 60%;
+	margin: 0.5em 0;
+	align-self: flex-start;
+}
+
+.footer{
+	background-color: hsl(243, 87%, 12%);
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	color: white;
+	padding: 2em 0;
+}
+
+.logo-svg{
+	fill: white;
+}
+
+.extra-info{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.extra-info > a{
+	color: white;
+	text-decoration: none;
+	margin-top: 1em;
+}
+
+.extra-info > a:hover{
+	color: hsl(238, 22%, 44%);
+}
+
+.links{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.logos{
+	fill: white;
+	width: 4vw;
+	height: 4vh;
+	cursor: pointer;
+}
+
+.fb:hover{
+	fill: cadetblue;
+}
+
+.tw:hover{
+	fill: skyblue;
+}
+
+.ig:hover{
+	fill: hotpink;
+}
+
+.credits > a{
+	text-decoration: none;
+	color: hsl(224, 93%, 58%);
+	font-weight: bold;
+}
+
+.credits > a:hover{
+	color: hsl(170, 45%, 43%);
+}
+
+
+@media screen and (max-width: 375px){
+	body{
+		font-size: 14px;
+	}
+
+	.nav-container{
+		min-width: 100vw;
+	}
+
+	.nav-list{
+		width: 70vw;
+		justify-content: space-around;
+	}
+
+	.logo-container{
+		min-width: 20vw;
+	}
+
+	.logo-container > img{
+		width: 70%;
+	}
+
+	.info{
+		display: flex;
+		flex-direction: column-reverse;
+		text-align: center;
+	}
+
+	.email-form{
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.email-form > .email{
+		margin: 1em 0;
+		width: 100%;
+	}
+
+	.submit-btn{
+		width: 100%;
+	}
+
+	.bg-desktop{
+		display: none;
+	}
+
+	.bg-mobile{
+		display: flex;
+	}
+
+	.second-info{
+		display: flex;
+		flex-direction: column-reverse;
+	}
+
+	.presentation-container-2 > .headline{
+		text-align: center;
+	}
+
+	.fylo{
+		align-self: center;
+	}
+
+	.testimonial-container{
+		align-self: center;
+		width: 75%;
+	}
+
+	.early-access{
+		flex-direction: column;
+		text-align: center;
+	}
+
+	.early-text{
+		width: 100%;
+	}
+
+	.email-early{
+		flex-direction: column;
+		width: 100%;
+		align-items: center;
+	}
+
+
+	.footer{
+		flex-direction: column;
+		padding: 1em;
+	}
+
+	.logo-footer{
+		width: 100%;
+	}
+
+	.extra-info{
+		justify-items: flex-start;
+		align-items: flex-start;
+		width: 100%;
+	}
+
+	.links{
+		width: 100%;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.logos{
+		margin: 1em;
+	}
+
+}
