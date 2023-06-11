@@ -1,7 +1,7 @@
 *{
 	box-sizing: border-box;
 }
-
+ 
 body{
 	font-size: 16px;
 	font-family: 'Open Sans', sans-serif;
@@ -15,7 +15,7 @@ body{
 	justify-content: space-between;
 	align-items: center;
 	min-width: 90vw;
-	padding: 1em;
+	padding: 1em 2.5em;
 }
 
 .logo-container{
@@ -49,7 +49,7 @@ body{
 	min-width: 90vw;
 	min-height: 65vh;
 	margin: 2em 0;
-	padding: 1em;
+	padding: 1em 2.5em;
 }
 
 .presentation-container{
@@ -125,7 +125,7 @@ body{
 	min-height: 65vh;
 	margin: 0;
 	background-color: hsl(240, 75%, 98%);
-	padding: 1em;
+	padding: 1em 2.5em;
 }
 
 .fylo{
@@ -180,7 +180,7 @@ body{
 	background-color: hsl(238, 22%, 44%);
 	margin: 0;
 	min-width: 100%;
-	padding: 1em;
+	padding: 1em 2.5em;
 }
 
 .early-text{
@@ -221,7 +221,7 @@ body{
 	flex-direction: row;
 	justify-content: space-between;
 	color: white;
-	padding: 2em 0;
+	padding: 2em 2.5em;
 }
 
 .logo-svg{
@@ -282,7 +282,7 @@ body{
 }
 
 
-@media screen and (max-width: 375px){
+@media screen and (max-width: 900px){
 	body{
 		font-size: 14px;
 	}
@@ -368,7 +368,7 @@ body{
 
 	.footer{
 		flex-direction: column;
-		padding: 1em;
+		padding: 1em 2.5em;
 	}
 
 	.logo-footer{
